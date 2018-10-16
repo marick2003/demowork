@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import P5 from './views/P5.vue'
+import parallax from './views/parallax.vue'
 
 
 Vue.use(Router)
@@ -24,6 +25,11 @@ export default new Router({
       path: '/p5',
       name: 'p5',
       component: P5
+    }
+    ,{
+      path: '/parallax',
+      name: 'parallax',
+      component: parallax
     }
   ]
 })

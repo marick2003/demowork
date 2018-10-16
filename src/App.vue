@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/p5">P5JS</router-link>
+      <router-link to="/p5">P5JS</router-link> |
+      <router-link to="/parallax">parallax</router-link>
     </div>
     <router-view/>
   </div>
